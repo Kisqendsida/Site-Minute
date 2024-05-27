@@ -1,0 +1,113 @@
+.eau{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    padding-top: 25px;
+}
+.ea{
+    padding-top: 50px;
+    color: black;
+    font-family: 15px;
+}
+
+
+.tempe{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    padding-top: 25px;
+}
+.tempera{
+    padding-top: 50px;
+    color: black;
+    font-family: 15px;
+}
+
+
+/* partiehumidité du champ              */
+
+.moi {
+    padding-top:150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: rgba(255, 255, 255, 240);
+}
+.montexte h3{
+    font-size: 25px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    position: relative;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+   
+.montexte h3::before{
+	
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 500px;
+    background: blue;
+    left: 10%;
+    bottom: 0;
+    margin-left: -50px;
+}
+
+
+/* Styles du conteneur de l'image */
+.imagemoi {
+    flex-basis: 40%;
+    margin-right: 100px;
+}
+
+.imagemoi img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Styles du conteneur de texte */
+.montexte {
+    flex-basis: 40%;
+    padding: 20px;
+    margin-right: 100px;
+	
+}
+
+.montexte h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.montexte p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+}
+.amo{
+    padding-top: 100px;
+
+}
+
+.arroser p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+}
+.arrose {
+    background-color: blue;
+    background-size: 50px;
+    display: block;
+    margin: auto;
+    border-color: blue;
+}
+
